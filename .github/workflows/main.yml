@@ -19,7 +19,7 @@ jobs:
       - id: scan
         uses: rohanshiva/actions@main
         with:
-          app: "9ee6f86c-3a81-4138-9546-b23aa5f2c768"
+          app: "9aab6f81-31f0-4c61-bbf0-8c02de677a59"
           desc: "Test app"
         env:
           DETA_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
