@@ -1,4 +1,5 @@
 v: 1
+icon: ./icon.jpg
 micros:
     - name: backend-py
       directory: backend-py
