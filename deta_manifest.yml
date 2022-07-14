@@ -1,24 +1,9 @@
 v: 1
 micros:
-#     - name: python_new
-#       directory: src/python_new/
-#       engine: python3.9
-    - name: react-project
-      directory: src/react-project/
-      engine: create-react-app
-      command: npm run build
-      publish: build
-    - name: vue-project
-      directory: src/vue-project/
-      engine: vue
-      command: npm run build
-      publish: dist
-    - name: svelte-project
-      directory: src/svelte-project/
-      engine: svelte
-      command: npm run build
-      publish: public
-    - name: python_old
-      directory: src/python_old/
-      engine: python3.7
+    - name: backend-py
+      directory: backend-py
+      engine: python3.9 
       primary: true
+    - name: backend-node
+      directory: backend-node
+      engine: node14.x
