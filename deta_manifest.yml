@@ -6,4 +6,4 @@ micros:
       primary: true
     - name: backend-node
       directory: backend-node
-      engine: node14.x
+      engine: nodejs14.x
