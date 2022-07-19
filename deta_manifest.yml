@@ -1,10 +1,9 @@
 v: 1
 icon: ./icon.jpg
 micros:
-    - name: backend-py
-      directory: backend-py
-      engine: python3.9 
+    - name: mermaid
+      directory: mermaid
+      engine: svelte 
+      command: yarn build
+      publish: docs
       primary: true
-    - name: backend-node
-      directory: backend-node
-      engine: nodejs14.x
