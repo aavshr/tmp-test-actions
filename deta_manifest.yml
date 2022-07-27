@@ -1,9 +1,12 @@
 v: 1
 icon: ./icon.jpg
 micros:
-    - name: mermaid
-      directory: mermaid
+    - name: frontend
+      directory: frontend
       engine: svelte 
-      command: yarn build
-      publish: docs
       primary: true
+      command: npm run build 
+      publish: build
+    - name: api
+      directory: api
+      engine: python3.9

@@ -17,9 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: scan
-        uses: rohanshiva/actions@main
+        uses: deta/publish-pc-app@main
         with:
-          app: "9aab6f81-31f0-4c61-bbf0-8c02de677a59"
-          desc: "Test"
+          app: "0fb6bb64-8561-4473-84d5-fb05fe8bafd5"
+          desc: "Multiple micros test"
         env:
           DETA_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
