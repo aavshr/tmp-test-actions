@@ -1,12 +1,17 @@
 v: 1
-icon: ./icon.jpg
+icon: ./icon.png
 micros:
     - name: frontend
       directory: frontend
-      engine: svelte 
+      engine: create-react-app
       primary: true
       command: npm run build 
       publish: build
     - name: api
       directory: api
       engine: python3.9
+      presets:
+        env:
+        - name: SOME_ENV_VAR
+          description: This describes the purpose of this env var
+          default: default value set
