@@ -1,15 +1,10 @@
 v: 1
 icon: ./icon.png
 micros:
-    - name: frontend
-      directory: frontend
-      engine: create-react-app
-      primary: true
-      command: npm run build 
-      publish: build
     - name: api
       directory: api
       engine: python3.9
+      primary: true
       presets:
         env:
         - name: SOME_ENV_VAR
