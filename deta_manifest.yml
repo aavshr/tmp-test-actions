@@ -3,10 +3,5 @@ icon: ./icon.png
 micros:
     - name: api
       directory: api
-      engine: python3.9
+      engine: python3.8
       primary: true
-      presets:
-        env:
-        - name: SOME_ENV_VAR
-          description: This describes the purpose of this env var
-          default: default value set

@@ -14,4 +14,4 @@ app.add_middleware(
 
 @app.get("/")
 async def index():
-    return "this should be live in my dev instance"
+    return "python 3.8"
