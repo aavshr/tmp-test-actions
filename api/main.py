@@ -12,6 +12,6 @@ app.add_middleware(
     allow_credentials=True,
 )
 
-@app.get("/api")
-async def api():
-    return "working"
+@app.get("/")
+async def index():
+    return "python 3.8"
